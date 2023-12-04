@@ -1,10 +1,12 @@
 //Given a string s consisting of words and spaces, return the length of the last word in the string.
 //A word is a maximal
 //substring consisting of non-space characters only.
-
+import java.util.Scanner;
 public class wordcount {
     public static void main(String[] args) {
-        String str="luffy is still joyboy";
+        Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+        //String str="luffy is still joyboy";
         System.out.println(count(str));
 
     }
